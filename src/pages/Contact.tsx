@@ -22,7 +22,7 @@ export const Contact = () => {
     },
     {
       icon: MessageCircle,
-      label: t('add_me'),
+      label: 'Discord: .cyjan.',
       value: 'Discord',
       href: '#',
       variant: 'default' as const,
@@ -31,7 +31,7 @@ export const Contact = () => {
   ];
 
   return (
-    <div className="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen pt-20 px-4 sm:px-6 lg:px-8 flex items-center justify-center">
       <div className="max-w-2xl mx-auto text-center space-y-12 animate-fade-in">
         {/* Header */}
         <div className="space-y-4">

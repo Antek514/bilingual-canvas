@@ -7,7 +7,7 @@ export const Home = () => {
   const { t } = useLanguage();
 
   return (
-    <div className="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen pt-20 px-4 sm:px-6 lg:px-8 flex items-center justify-center">
       <div className="max-w-4xl mx-auto text-center space-y-8 animate-fade-in">
         {/* Hero Section */}
         <div className="space-y-6">
